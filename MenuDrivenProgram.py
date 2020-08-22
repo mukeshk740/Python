@@ -1,7 +1,10 @@
+#importing OS library, required to interact with base OS.
 import os
+#importing pyttsx3 library, required for text to speak functionality
 import pyttsx3
+#Startup Announcement, it will speak the lines given
 pyttsx3.speak("welcome to my program !! You can Chat with me your requirements !! or type quit ")
-
+# Infinite loop, to run the program continuously
 while True:
 	print("Chat with me your requirements:", end=' ')
 	x = input()
@@ -30,4 +33,4 @@ while True:
 	elif ("EXIT" in p) or ("QUIT" in p ):
 	  break
 	else: 
-	  print ("Not Supported")
+	  print ("Functionality not available")
