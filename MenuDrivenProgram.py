@@ -17,6 +17,8 @@ while True:
         os.system("gedit")   # Opens gedit (Linux text editor)
     elif (("RUN" in p) or ("OPEN" in p) or ("EXECUTE" in p)) and (("CHROME" in p) or ("GOOGLE CHROME" in p)):
         os.system("google-chrome")  # Opens Chrome
+    elif (("RUN" in p) or ("OPEN" in p) or ("EXECUTE" in p)) and (("Caclculator" in p) or ("calc" in p)):
+        os.system("gnome-calculator")  # Opens Calc    
     elif ("EXIT" in p) or ("QUIT" in p):
         break
     else:
